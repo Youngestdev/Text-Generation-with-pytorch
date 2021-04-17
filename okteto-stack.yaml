@@ -1,6 +1,6 @@
 name: textgen
 services:
-  fastapi:
+  textgeneration:
     public: true
     image: emekaboris/text_generation_with_pytorch:latest
     build: .
