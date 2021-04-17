@@ -2,7 +2,7 @@ name: textgen
 services:
   textgeneration:
     public: true
-    image: emekaboris/text_generation_with_pytorch:latest
+    image: okteto.dev/text_generation_with_pytorch:latest
     build: .
     replicas: 1
     ports:
